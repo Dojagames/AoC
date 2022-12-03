@@ -55,8 +55,6 @@ function calcScore(_input){
         str2 = list[i+1];
         str3 = list[i+2];
 
-        //alert(str1 + "\n" + str2 + "\n" + str3 + "\n" )
-
         for(let j = 0; j < str2.length; j++){
             if(str1.indexOf(str2.charAt(j)) > -1){
                 if(skip == true) break;
