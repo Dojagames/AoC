@@ -2,9 +2,9 @@
   "name": "2023",
   "version": "1.0.0",
   "description": "",
-  "main": "day1.js",
+  "main": "day2.js",
   "scripts": {
-    "devStart": "nodemon day1.js"
+    "devStart": "nodemon day2.js"
   },
   "author": "",
   "license": "ISC",
