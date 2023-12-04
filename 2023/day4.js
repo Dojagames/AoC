@@ -42,23 +42,21 @@ for(let i = 0; i < input.length; i++){
 }
 
 for(let i = 0; i < input.length; i++){
-    let hits = 0;
+    let hits = 1;
     const winningTable = input[i].split(":")[1].split("|")[0].split(" ").filter(e => e !== "");
     const yourTable = input[i].split(":")[1].split("|")[1].split(" ").filter(e => e !== "");
     yourTable.forEach((e) => {
         if(winningTable.includes(e)){
-            console.log(e);
             hits++;
         }
     });
 
-    for(let j = 1; j < hits +1; j++){
+    for(let j = 1; j < hits; j++){
         instances[i + j] += instances[i];
     };
+    
+    output2 += instances[i];
 };
 
-instances.forEach(e => {
-    output2 += e;
-})
 
 console.log(output2);
