@@ -35,11 +35,7 @@ console.log(output1);
 
 
 // task 2
-let instances = [];
-
-for(let i = 0; i < input.length; i++){
-    instances.push(1);
-}
+let instances = Array(input.length).fill(1);
 
 for(let i = 0; i < input.length; i++){
     let hits = 0;
