@@ -4,7 +4,7 @@
   "description": "",
   "main": "day3.js",
   "scripts": {
-    "devStart": "nodemon day4.js"
+    "devStart": "nodemon day6.js"
   },
   "author": "",
   "license": "ISC",
